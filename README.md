@@ -1,4 +1,4 @@
-# Microsoft Sentinel All-in-One
+# Microsoft Sentinel Deployment ARM temaplate
 
 ## Try it now!
 
