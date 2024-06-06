@@ -144,29 +144,6 @@
                 "visible": "[if(equals(basics('pricingTierLA'),'CapacityReservation'), true, false)]"
             },
             {
-                "name": "pricingTierSentinel",
-                "type": "Microsoft.Common.DropDown",
-                "label": "Select pricing tier for Sentinel",
-                "placeholder": "",
-                "multiselect": false,
-                "toolTip": "Visit [Microsoft Sentinel Pricing page](https://azure.microsoft.com/pricing/details/microsoft-sentinel) for more information.",
-                "defaultValue": [{"value": "PerGB"}],
-                "constraints": {
-                    "allowedValues": [
-                        {
-                            "label": "Pay-as-you-go",
-                            "value": "PerGB"
-                        },
-                        {
-                            "label": "Commitment Tier",
-                            "value": "CapacityReservation"
-                        }
-                    ],
-                    "required": true
-                },
-                "visible": true
-            },
-            {
                 "name": "capacityReservationSentinel",
                 "type": "Microsoft.Common.DropDown",
                 "label": "Select Commitment Tier for Sentinel",
