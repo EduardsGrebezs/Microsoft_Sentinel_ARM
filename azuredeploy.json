@@ -14,13 +14,6 @@
                 "description": "Name for the Log Analytics workspace"
             }
         },
-        "pricingTierLA": {
-            "type": "string",
-            "metadata": {
-                "description": "Pricing tier: pergb2018 or legacy tiers (Free, Standalone, PerNode, Standard or Premium) which are not available to all customers."
-            },
-            "defaultValue": "PerGB2018"
-        },
         "enableDataConnectors": {
             "type": "array",
             "metadata": {
@@ -144,10 +137,7 @@
                 "parameters": {
                     "workspaceName": {
                         "value": "[parameters('workspaceName')]"
-                    },
-                    "pricingTierLA": {
-                        "value": "[parameters('pricingTierLA')]"
-                    },
+                 },
                     "dailyQuota": {
                         "value": "[parameters('dailyQuota')]"
                     },
