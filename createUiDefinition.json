@@ -232,12 +232,12 @@
                           "allowedValues": [
                               {
                                   "label": "Microsoft Entra ID",
-                                  "description": "The Azure Active Directory solution for Microsoft Sentinel enables you to ingest Azure Active Directory Audit,Sign-in,Provisioning,Risk Events and Risky User/Service Principal logs using Diagnostic Settings into Microsoft Sentinel.",
+                                  "description": "The Microsoft Entra ID solution for Microsoft Sentinel enables you to ingest Microsoft Entra ID Audit, Sign-in, Provisioning, Risk Events and Risky User/Service Principal logs using Diagnostic Settings into Microsoft Sentinel.",
                                   "value": "Microsoft Entra ID"
                               },
                               {
                                 "label": "Microsoft Entra ID Protection",
-                                "description": "The Azure Active Directory solution for Microsoft Sentinel enables you to ingest Azure Active Directory Audit,Sign-in,Provisioning,Risk Events and Risky User/Service Principal logs using Diagnostic Settings into Microsoft Sentinel.",
+                                "description": "The Microsoft Entra ID Protection solution for Microsoft Sentinel allows you to ingest Security alerts reported in Microsoft Entra ID Protection for risky users and events in Microsoft Entra ID.",
                                 "value": "Microsoft Entra ID Protection"
                             },
                               {
@@ -428,12 +428,12 @@
                             {
                                 "label": "Microsoft Entra ID",
                                 "description": "Relevant license and Global Admin or Security Admin permission required.",
-                                "value": "Microsoft Entra ID"
+                                "value": "AzureActiveDirectory"
                             },  
                             {
                                 "label": "Microsoft Entra ID Protection",
                                 "description": "Relevant license and Global Admin or Security Admin permission required.",
-                                "value": "Microsoft Entra ID Protection"
+                                "value": "AzureActiveDirectoryIDP"
                             },
                             {
                                 "label": "Azure Activity",
@@ -471,7 +471,7 @@
                                 "value": "Office365Project"
                             },
                             {
-                                "label": "Office 365",
+                                "label": "Microsoft 365",
                                 "description": "Relevant license and Global Admin or Security Admin permission required",
                                 "value": "Office365"
                             },
