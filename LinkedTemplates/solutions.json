@@ -69,7 +69,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "https://catalogartifact.azureedge.net/publicartifacts/azuresentinel.azure-sentinel-solution-office365-66e732d2-f8b7-4c08-8d12-aa8c143acbdd-azure-sentinel-solution-office365/Artifacts/mainTemplate.json",
+                    "uri": "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Microsoft%20Defender%20XDR/Package/mainTemplate.json",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
@@ -90,6 +90,39 @@
                     },
                     "workbook3-name": {
                         "value": "Exchange Online"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "[contains(parameters('enableSolutions1P'), 'Microsoft Defender XDR')]",
+            "name": "Microsoft Defender XDR",
+            "type": "Microsoft.Resources/deployments",
+            "apiVersion": "2021-04-01",
+            "properties": {
+                "mode": "Incremental",
+                "templateLink": {
+                    "uri": "https://catalogartifact.azureedge.net/publicartifacts/azuresentinel.azure-sentinel-solution-office365-66e732d2-f8b7-4c08-8d12-aa8c143acbdd-azure-sentinel-solution-office365/Artifacts/mainTemplate.json",
+                    "contentVersion": "1.0.0.0"
+                },
+                "parameters": {
+                    "workspace": {
+                        "value": "[parameters('workspaceName')]"
+                    },
+                    "location": {
+                        "value": "[parameters('location')]"
+                    },
+                    "workspace-location": {
+                        "value": "[parameters('location')]"
+                    },
+                    "workbook1-name": {
+                        "value": "Microsoft Defender XDR MDOWorkbook"
+                    },
+                    "workbook2-name": {
+                        "value": "Microsoft Defender For EndPoint"
+                    },
+                    "workbook3-name": {
+                        "value": "Microsoft Defender For Identity"
                     }
                 }
             }
