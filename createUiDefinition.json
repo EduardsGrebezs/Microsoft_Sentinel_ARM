@@ -246,6 +246,11 @@
                                   "value": "Dynamics 365 CE Apps"
                               },
                               {
+                                "label": "Microsoft Defender XDR",
+                                "description": "The Microsoft Defender XDR solution for Microsoft Sentinel enables you to ingest Security Alerts/Incidents and raw logs from the products within Microsoft Defender XDR suite into Microsoft Sentinel.",
+                                "value": "Microsoft 365"
+                            },
+                              {
                                   "label": "Microsoft 365",
                                   "description": "The Microsoft 365 solution for Microsoft Sentinel enables you to ingest operational logs from Microsoft 365 to gain insights into user and admin activity across your collaboration platforms such as Teams, SharePoint and Exchange.",
                                   "value": "Microsoft 365"
