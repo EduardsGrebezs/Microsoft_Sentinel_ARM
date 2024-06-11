@@ -248,7 +248,7 @@
                               {
                                 "label": "Microsoft Defender XDR",
                                 "description": "The Microsoft Defender XDR solution for Microsoft Sentinel enables you to ingest Security Alerts/Incidents and raw logs from the products within Microsoft Defender XDR suite into Microsoft Sentinel.",
-                                "value": "Microsoft 365"
+                                "value": "Microsoft Defender XDR"
                             },
                               {
                                   "label": "Microsoft 365",
