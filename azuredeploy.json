@@ -148,7 +148,7 @@
             "metadata": {
                 "description": "The location of resources"
             },
-            "defaultValue": "https://raw.githubusercontent.com/EduardsGrebezs/Microsoft_Sentinel_ARM/"
+            "defaultValue": "https://raw.githubusercontent.com/EduardsGrebezs/Microsoft_Sentinel_ARM/main"
         }
     },
     "variables": {
