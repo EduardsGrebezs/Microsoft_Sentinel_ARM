@@ -236,6 +236,11 @@
                                   "value": "Microsoft Entra ID"
                               },
                               {
+                                "label": "Microsoft Entra ID Protection",
+                                "description": "The Azure Active Directory solution for Microsoft Sentinel enables you to ingest Azure Active Directory Audit,Sign-in,Provisioning,Risk Events and Risky User/Service Principal logs using Diagnostic Settings into Microsoft Sentinel.",
+                                "value": "Microsoft Entra ID Protection"
+                            },
+                              {
                                   "label": "Azure Activity",
                                   "description": "The Azure Activity solution for Microsoft Sentinel enables you to ingest Azure Activity Administrative, Security, Service Health, Alert, Recommendation, Policy, Autoscale and Resource Health logs using Diagnostic Settings into Microsoft Sentinel.",
                                   "value": "Azure Activity"
@@ -421,14 +426,14 @@
                       "constraints": {
                           "allowedValues": [
                             {
-                                "label": "Azure Active Directory",
+                                "label": "Microsoft Entra ID",
                                 "description": "Relevant license and Global Admin or Security Admin permission required.",
-                                "value": "AzureActiveDirectory"
+                                "value": "Microsoft Entra ID"
                             },  
                             {
-                                "label": "Azure Active Directory Identity Protection",
+                                "label": "Microsoft Entra ID Protection",
                                 "description": "Relevant license and Global Admin or Security Admin permission required.",
-                                "value": "AzureActiveDirectoryIDP"
+                                "value": "Microsoft Entra ID Protection"
                             },
                             {
                                 "label": "Azure Activity",
